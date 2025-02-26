@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="contact">
+    <header>
+        <h1>Pottery Shop</h1>
+        <div class="descriptive-text">
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html"><img src="img/isologo white.png" alt="shop logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a class="current" href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <label for="nombre">Nombre <span>*</span></label>
+        <input type="text" id="nombre">
+
+        <label for="direccion">Direccion <span>*</span></label>
+        <input type="text" id="direccion">
+
+        <div class="inline-group">
+            <label for="edad">Edad <span>*</span></label>
+            <label for="telefono">Telefono <span>*</span></label>
+        </div>
+
+        <div class="inline-group">
+            <input type="text" id="edad">
+            <input type="text" id="telefono">
+        </div>
+
+        <label for="correo">Correo <span>*</span></label>
+        <input type="text" id="correo">
+
+        <label for="Comentarios">Comentarios</label>
+        <textarea name="Comentarios" id="comentarios"></textarea>
+
+        <button>Enviar</button>
+    </div>
+
+    
+    <div class="container inline-group social-media">
+        <i class="fa-brands fa-whatsapp" class="icon"></i>
+        <i class="fa-brands fa-facebook-f" class="icon"></i>
+        <i class="fa-brands fa-instagram" class="icon"></i>
+        <i class="fa-brands fa-twitter" class="icon"></i>
+    </div>
+
+    <div id="follow-us">
+        <p>Siguenos</p>
+    </div>
+
+    <footer>
+        <p>&copy; Copyright - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

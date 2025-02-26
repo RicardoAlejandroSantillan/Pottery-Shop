@@ -1,0 +1,287 @@
+@media (max-width: 870px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    header {
+        height: auto;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    header .descriptive-text {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    nav.menu {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav.menu a img {
+        width: 150px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    nav.menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.menu ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .pnl {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pnl img {
+        width: 100%;
+        height: auto;
+    }
+
+    .pnl-phrase {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .pnl-phrase p.author {
+        font-size: 1.2rem;
+    }
+
+    .feature-Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .lastPnl {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .testimonial {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .testimonial img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial .content {
+        padding: 10px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 0.9em;
+    }
+}
+
+/* Estilos específicos para la página de productos */
+@media (max-width: 768px) {
+    #products .gallery-carousell {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #products .gallery-carousell .card {
+        width: 90%;
+        margin-bottom: 20px;@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    header {
+        height: auto;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    header .descriptive-text {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    nav.menu {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav.menu a img {
+        width: 150px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    nav.menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.menu ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .pnl {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pnl img {
+        width: 100%;
+        height: auto;
+    }
+
+    .pnl-phrase {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .pnl-phrase p.author {
+        font-size: 1.2rem;
+    }
+
+    .feature-Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .lastPnl {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .testimonial {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .testimonial img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial .content {
+        padding: 10px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 0.9em;
+    }
+}
+
+/* Estilos específicos para la página de productos */
+@media (max-width: 768px) {
+    #products .gallery-carousell {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #products .gallery-carousell .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos específicos para la página de contacto */
+@media (max-width: 768px) {
+    #contact .container {
+        padding: 10px;
+    }
+
+    #contact .container .inline-group {
+        flex-direction: column;
+    }
+
+    #contact .container .inline-group label, 
+    #contact .container .inline-group input {
+        width: 100%;
+    }
+
+    #contact .container button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #contact .social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact .social-media i {
+        margin-bottom: 10px;
+    }
+}
+    }
+}
+
+/* Estilos específicos para la página de contacto */
+@media (max-width: 768px) {
+    #contact .container {
+        padding: 10px;
+    }
+
+    #contact .container .inline-group {
+        flex-direction: column;
+    }
+
+    #contact .container .inline-group label, 
+    #contact .container .inline-group input {
+        width: 100%;
+    }
+
+    #contact .container button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #contact .social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact .social-media i {
+        margin-bottom: 10px;
+    }
+}
